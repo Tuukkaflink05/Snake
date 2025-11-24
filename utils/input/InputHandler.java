@@ -4,7 +4,11 @@ import java.io.Console;
 
 import gameUtils.Snake;
 import utils.Sound;
-
+/**
+ * utility class to handle input from the user.
+ * accepts only w, a, s, or d as valid input
+ * others are ingored. if playes tries to turn back on itself it's ignored
+ */
 public class InputHandler implements Runnable {
 
     private Sound wSound;
@@ -34,6 +38,11 @@ public class InputHandler implements Runnable {
 
     @Override
     public void run() {
+
+                this.wSound = new Sound("sounds/w-sound.wav");
+        this.aSound = new Sound("sounds/a-sound.wav");
+        this.sSound = new Sound("sounds/s-sound.wav");
+        this.dSound = new Sound("sounds/d-sound.wav");
 
         while(running) {
 
