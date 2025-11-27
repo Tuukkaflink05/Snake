@@ -63,8 +63,6 @@ public class Game {
                 placeApple();
                 snake.addLength();
                 snake.addLength();
-                snake.addLength();
-                snake.addLength();
                 this.score++;
 
             }
