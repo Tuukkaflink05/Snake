@@ -31,11 +31,11 @@ public class Game {
         this.width = width;
         this.score = 0;
 
-        int[][] startBody = { { 5, 5 }, { 6, 5 }, { 7, 5 }, { 7, 4 } };
-        String startDirection = "w";
+        int[][] startBody = { { 10, 5 }, { 9, 5 }, { 8, 5 }, { 7, 5 } };
+        String startDirection = "d";
 
         this.snake = new Snake(startBody, startDirection);
-        this.apple = new Apple(height, width);
+        this.apple = new Apple();
 
     }
 
