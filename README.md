@@ -82,5 +82,8 @@ Snake/
         └── highScoresTitle.txt
 ```
 
+## to do
+- GUI at some point??
+    - propalby not
 
 ![alt text](https://github.com/Tuukkaflink05/Snake/blob/main/pics/snake-dead.png?raw=true)
